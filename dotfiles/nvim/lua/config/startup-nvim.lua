@@ -12,8 +12,8 @@ startup.header = {
   content = {
     "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
     "⣿⣿NEOVIM⣿⣿⣿⣿⣿⠋⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
-    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⣀⣀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
-    "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠈⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿INSIDE⣿⣿⣿⡿⠁⣀⣀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
+    "⣿⣿⣿NIX!⣿⣿⣿⡿⠁⠀⠀⠈⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
     "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣭⣚⡝⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",
     "⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠛⠿⣿⡏⠙⢿⡝⠀⠈⠙⠿⢿⢿⣿⡟⣿⣿⣿⣿⣿",
     "⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠈⠀⠈⠀⠀⠀⠀⠀⣠⣴⡿⢁⢿⣿⣿⣿⣿",
@@ -35,8 +35,8 @@ startup.menu = {
   type = "mapping",
   align = "center",
   content = {
-    { " Find File", "Telescope find_files", "<leader>ff" },
-    { "󱀍 Find Word", "Telescope live_grep", "<leader>lg" },
+    { " Find Files", "Telescope find_files", "<leader>ff" },
+    { "󱀍 Find Words", "Telescope live_grep", "<leader>lg" },
     { " Recent Files", "Telescope oldfiles", "<leader>of" },
     { " File Browser", "Telescope file_browser", "<leader>fb" },
     { " Colorschemes", "Telescope colorscheme", "<leader>cs" },
