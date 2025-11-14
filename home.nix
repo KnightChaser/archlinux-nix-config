@@ -26,12 +26,24 @@
     fzf
     ripgrep
     btop
+
+    kitty
+    waybar
+    fastfetch
+    # TODO:
+    # Hyprland: I'd keep using the Arch package for now on non-NixOS (Arch Linux)
+    #           Because it's tightly tied to the system.
+    #           Flip this over once I move to NixOS completely.
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
-    ".config/nvim".source = ./dotfiles/nvim;
+    ".config/nvim".source      = ./dotfiles/nvim;
+    ".config/hypr".source      = ./dotfiles/hypr;
+    ".config/kitty".source     = ./dotfiles/kitty;
+    ".config/waybar".source    = ./dotfiles/waybar;
+    ".config/fastfetch".source = ./dotfiles/fastfetch;
   };
 
   # Home Manager can also manage your environment variables through
