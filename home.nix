@@ -28,7 +28,6 @@
     btop
 
     kitty
-    waybar
     fastfetch
     # TODO:
     # Hyprland: I'd keep using the Arch package for now on non-NixOS (Arch Linux)
@@ -65,6 +64,9 @@
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
+
+  # Waybar configuration
+  programs.waybar.enable = true;
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
